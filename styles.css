@@ -10,8 +10,10 @@
 }
 
 body {
-  background-color: var(--dark-blue);
-  color: var(--light-gray);
+  background-image: url(assecc/images2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(244, 244, 244);
 }
 
 main {
@@ -62,8 +64,8 @@ label {
 }
 
 .price-screen {
-  border: 10px solid #99c9ff;
-  background-color: black;
+  border: 10px solid #b7037ec7;
+  background-image: linear-gradient(#d4a50d, #03353a);
   height: 50px;
   width: 200px;
   margin-left: -40px;
@@ -93,7 +95,7 @@ label {
   justify-content: space-around;
   border-radius: 35px 35px 0 0;
   padding-top: 20px;
-  background-color: #99c9ff;
+  background-image: linear-gradient(#068591, #360128);
   height: 250px;
   width: 325px;
 }
@@ -107,7 +109,7 @@ label {
   border: none;
   width: 20px;
   height: 20px;
-  background-color: black;
+  background-color: rgb(2, 10, 15);
 }
 
 .check-btn-styles {
@@ -118,15 +120,15 @@ label {
   color: #0a0a23;
   font-size: 18px;
   font-weight: bold;
-  background-color: #feac32;
-  background-image: linear-gradient(#fecc4c, #ffac33);
+  background-color: #32a9fe;
+  background-image: linear-gradient(#068591, #f8144d);
   border-color: #feac32;
   border-width: 3px;
 }
 
 .cash-drawer-display {
   font-size: 1.1rem;
-  background-color: white;
+  background-color: rgb(219, 139, 35);
   width: 55%;
   height: 95%;
   color: black;
@@ -134,7 +136,7 @@ label {
 }
 
 .bottom-register {
-  background-color: #99c9ff;
+  background-image: linear-gradient(#068591, #f8144d);
   height: 50px;
   width: 325px;
   margin-top: 10px;
