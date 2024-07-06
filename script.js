@@ -9,11 +9,8 @@ const cashDrawerDisplay = document.getElementById('cash-drawer-display');
 
 const formatResults = (status, change) => {
   displayChangeDue.innerHTML = `<p>Status: ${status}</p>`;
-  change.map(
-    money => (displayChangeDue.innerHTML += `<p>${money[0]}: $${money[1]}</p>`)
-  );
-  return;
-};
+  change.map( money => (displayChangeDue.innerHTML += `<p>${money[0]}: $${money[1]}</p>`) );};
+//   return;
 
 const checkCashRegister = () => {
   if (Number(cash.value) < price) {
